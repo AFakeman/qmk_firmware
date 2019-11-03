@@ -13,7 +13,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT( /* Base */
         AF_ONE,  AF_LEN_2, AF_LEN_4, AF_RESET,
-        AF_ZERO, AF_LEN_1, AF_LEN_3, LCTL(KC_6)
+        AF_ZERO, AF_LEN_1, AF_LEN_3, LGUI(KC_SPACE)
     ),
 };
 
